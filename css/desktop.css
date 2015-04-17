@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@media screen and (min-width: 769px) {
+  #main-container #header {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    position: fixed; }
+    #main-container #header:last-child {
+      margin-right: 0; } }
+@media screen and (min-width: 769px) {
+  #main-container #content {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    position: relative;
+    right: 0;
+    top: 0;
+    float: right; }
+    #main-container #content:last-child {
+      margin-right: 0; } }
+
+/*# sourceMappingURL=desktop.css.map */

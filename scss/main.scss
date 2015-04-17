@@ -1,0 +1,45 @@
+@import "bourbon/app/assets/stylesheets/bourbon";
+@import "neat/app/assets/stylesheets/neat";
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic);
+
+$grey: #F5F5F6;
+$red: #E75B4C;
+
+body {
+	font-weight: 300;
+	color: $red;
+	background-color: $grey;
+	padding: 2em;
+}
+
+* {
+	box-sizing: box;
+}
+
+
+#main-container {
+	@include outer-container;
+	#header {
+		border: 1px;
+	}
+	#content {
+		border: 1px;
+		float: right;
+	}
+}
+
+section {
+	article {
+		border-top: 1px solid $red;
+	}
+}
+
+dl {
+	dt {
+		font-weight: 400;
+		color: black;
+	}
+	dd {
+		margin: 0;
+	}
+}

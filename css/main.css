@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,300italic);
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  font-weight: 300;
+  color: #E75B4C;
+  background-color: #F5F5F6;
+  padding: 2em; }
+
+* {
+  box-sizing: box; }
+
+#main-container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  #main-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #main-container #header {
+    border: 1px; }
+  #main-container #content {
+    border: 1px;
+    float: right; }
+
+section article {
+  border-top: 1px solid #E75B4C; }
+
+dl dt {
+  font-weight: 400;
+  color: black; }
+dl dd {
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */

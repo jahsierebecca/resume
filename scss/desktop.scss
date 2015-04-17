@@ -1,0 +1,22 @@
+@import "bourbon/app/assets/stylesheets/bourbon";
+@import "neat/app/assets/stylesheets/neat";
+
+
+
+#main-container {
+	#header {
+		@include media(769px) {
+       		@include span-columns(3);
+       		position: fixed;
+		}
+	}
+	#content {
+		@include media(769px) {
+       		@include span-columns(9);
+       		position: relative;
+       		right: 0;
+       		top: 0;
+       		float: right;
+		}
+	}
+}
