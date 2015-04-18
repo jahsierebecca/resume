@@ -10,9 +10,24 @@ html {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    position: fixed; }
+    position: fixed;
+    text-align: left; }
     #main-container #header:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    #main-container #header dl {
+      text-align: left; }
+      #main-container #header dl dt {
+        text-align: left;
+        display: block;
+        font-weight: 400;
+        margin-top: 20px; }
+      #main-container #header dl dd {
+        display: block; }
+        #main-container #header dl dd p {
+          display: block;
+          margin: 5px 0; }
+        #main-container #header dl dd a i {
+          display: none; } }
 @media screen and (min-width: 769px) {
   #main-container #content {
     float: left;
@@ -24,6 +39,9 @@ html {
     top: 0;
     float: right; }
     #main-container #content:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    #main-container #content div {
+      max-width: 700px;
+      magin: auto; } }
 
 /*# sourceMappingURL=desktop.css.map */
