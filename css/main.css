@@ -59,7 +59,7 @@ body {
     list-style: none;
     background-color: #D9D9DA; }
 
-section article {
+section article .job {
   border-top: 1px solid #092930; }
 
 dl {
